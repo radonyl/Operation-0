@@ -360,7 +360,7 @@ always @(*) begin
         end
         andi: begin
             `immALU
-            ctrl_imm_src = `signExt;
+            ctrl_imm_src = `zeroExt;
             ctrl_alu_func = `aluAnd;
         end
         ori: begin
