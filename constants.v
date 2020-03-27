@@ -17,7 +17,7 @@
 `define aluNor 6
 `define aluSL 7
 `define aluSR 8
-`define aluSRA 9
+`define aluSRA 9    
 `define aluSLT 10
 `define aluSLTU 11
 // MUL Function Code
@@ -64,7 +64,7 @@
 // stage wb grf wd src
 `define fromALU 0
 `define fromDm 1
-`define fromPC 2
+
 
 // stage ex grf wa src
 `define toGrfRt 0
@@ -75,7 +75,7 @@
 `define signExt 0
 `define zeroExt 1
 `define shiftLeft 2
-
+`define fromPC 3
 
 // stage ex alu out src
 `define fromALUOut 0
